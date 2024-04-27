@@ -29,8 +29,8 @@ connection.connect((err) => {
 
 // AWS S3 configuration
 const s3 = new AWS.S3({
-    accessKeyId: "AKIAXYKJXE7VUK4XVR62",
-    secretAccessKey: "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",
+    accessKeyId: "ASIAXYKJXE7V4M5PA557",
+    secretAccessKey: "Z5BwFkU9X2AGvx6WDLmNp6Obk5Z9pMBv9djxaQ/R",
 });
 
 const upload = multer({ dest: "uploads/" });
