@@ -8,7 +8,7 @@ const bodyParser = require("body-parser");
 const AWS = require('aws-sdk');
 const multer = require('multer');
 const port = 80;
-const s3endpoint = "http://mma-profiles.s3-website-us-east-1.amazonaws.com";
+const s3endpoint = "https://mma-profiles.s3.amazonaws.com/";
 
 // MySQL connection
 const connection = mysql.createConnection({
@@ -29,8 +29,8 @@ connection.connect((err) => {
 
 // AWS S3 configuration
 const s3 = new AWS.S3({
-    accessKeyId: "AKIAXYKJXE7VXA2MX5MX",
-    secretAccessKey: "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",
+    accessKeyId: "AKIAXYKJXE7VUK4XVR62",
+    secretAccessKey: "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",
 });
 
 const upload = multer({ dest: "uploads/" });
