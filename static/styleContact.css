@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+#navbar{
+    top: 0px;
+}
+h1{
+    text-align: center;
+    margin: 8rem 0 2rem 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myForm{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    justify-content: center;
+    align-items: center;
+}
+
+.myForm input{
+    width: 100%;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    outline: none;
+}
+
+.btn{
+    background-color: #F01E1F;
+    border: none;
+    padding: 1rem;
+    width: 10rem;
+    color: white;
+    margin: 1rem 0 5rem 0;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(78, 34, 34);
+}
+
+#footer{
+    width: 100%;
+}

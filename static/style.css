@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Roboto', sans-serif; */
+    color: white;
+}
+
+#navbar{
+    background-color: #F01E1F;
+    height: 3rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Architects Daughter', cursive;
+    align-items: center;
+    font-size: 1.5rem;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+
+}
+#navbar ul{
+    height: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+}
+#navbar ul li{
+    /* border: 2px solid #ff0000; */
+    list-style: none;
+    
+}
+#navbar ul li a{
+    display: flex;
+    height: 100%;
+    text-decoration: none;
+    /* border: 2px solid blue; */
+    color: white;
+    padding: 0 1rem;
+    padding: 1rem;
+    align-items: center;
+}
+
+#navbar ul li a:hover{
+    background-color: rgb(78, 34, 34);
+}
+
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    /* background-color: yellow; */
+    font-size: 3rem;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+
+
+}
+
+.unBold{
+        /* font-family: 'Roboto', bold; */
+        font-size: 1.5rem;
+}
+
+#intro::before{
+    background: url(../static/Ninja.jpg) no-repeat center center/cover;
+    background-position: 0% 0%;
+    content: " ";
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.90;
+    
+}
+
+
+#mission{
+    height: 40vh;
+    /* background-color: rgb(254, 211, 218); */
+    background-color: rgb(255, 219, 225);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container{
+    display: flex;
+    height: 100%;
+
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 70%;
+    background-color: rgb(0, 0, 0);
+    /* margin-left: 5vw; */
+    margin: auto;
+    align-items: center;
+    padding: 1rem;
+}
+.innerCards{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.innerCards p{
+    margin: auto;       
+}
+
+.innerCards img{
+    width: 4rem;
+    height: 4rem;
+    margin: 3px;
+    position: relative;
+    z-index: 1;
+
+}
+
+
+#sponsors{
+    height: 300px;
+    background-color: rebeccapurple;
+    
+}
+
+#footer{
+    height: 200px;
+    background-color: black;
+    color: white;
+
+}
+.center h2{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "mma_academy",
+  "version": "1.0.0",
+  "description": "Learning to create a website and a backend server with mma_academy project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "learn",
+    "backend",
+    "nodejs",
+    "pug",
+    "express"
+  ],
+  "author": "Mohammad",
+  "license": "ISC",
+  "dependencies": {
+    "alert": "^5.1.1",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.2",
+    "popups": "^1.1.3",
+    "pug": "^3.0.2"
+  }
+}

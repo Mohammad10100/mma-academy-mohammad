@@ -1,0 +1,42 @@
+doctype html
+html
+    head
+        title MMA_Academy
+        style
+            include ../static/style.css
+    body
+        nav#navbar
+            ul
+                li #[a(href="/home") HOME]
+                li #[a(href="/") SERVICES]
+                li #[a(href="/") CLASS INFO]
+                li #[a(href="/") ABOUT]
+                li #[a(href="/contact") CONTACT US]
+        section#intro
+            div WELCOME TO THE FIGHT CLUB
+            div.unBold SWEAT SLEEP SORE REPEAT
+        section#mission
+            .center
+                h2 What can you learn?
+            .container 
+                .cards
+                    h3 Karate
+                    .innerCards 
+                        p Better instinct and reaction time
+                        img(src='../static/karate.jpg')
+                .cards
+                    h3 Kick Boxing
+                    .innerCards
+                        P Best place in the town for Kick Boxing 
+                        img(src='../static/kickboxing.jpg')
+                .cards
+                    h3 Muay Thai
+                    .innerCards 
+                        P Get your shins conditioned
+                        img(src='../static/muaythai.jpg')
+        //- section#sponsors
+        //-     | section for sponsors
+        section#footer
+            | footer
+        script 
+            include ../static/index.js
